@@ -1,0 +1,10 @@
+<div data-controller="toggle-hidden">
+
+  <!-- connects this p to the 'text' target defined in the JavaScript controller -->
+  <p data-toggle-hidden-target="text" class="hidden">
+    This is hidden text.
+  </p>
+
+  <!-- clicking this button will execute the toggle method in the toggle_hidden.js controller -->
+  <button data-action="click->toggle-hidden#toggle">Toggle Visibility</button>
+</div>
